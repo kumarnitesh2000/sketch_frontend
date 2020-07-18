@@ -20,7 +20,7 @@ COPY . .
 EXPOSE 3000
 RUN npm run build
 WORKDIR ./build
-RUN npm -i g serve
+RUN npm i -g serve
 
  
 # Finally runs the application
