@@ -17,7 +17,7 @@ RUN npm build
 COPY . .
  
 # Uses port which is used by the actual application
-EXPOSE 3000
+EXPOSE 5000
 RUN npm run build
 WORKDIR ./build
 RUN npm i -g serve
