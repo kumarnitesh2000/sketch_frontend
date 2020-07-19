@@ -6,7 +6,7 @@ import CachedIcon from '@material-ui/icons/Cached';
 import YoutubeSearchedForIcon from '@material-ui/icons/YoutubeSearchedFor';
 const App = () =>{
 
-  const App_Key = "5b4e4fcab7msh3a2ded5495225f5p10a175jsnc544fcb906bb";
+  const App_Key = "YourAPIKey";
   const url = "https://edamam-food-and-grocery-database.p.rapidapi.com/parser";
   const param = {"ingr":"apple"};
   const [foods , setFood] = useState([]);
