@@ -1,0 +1,26 @@
+.protien{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+
+
+
+.carbs
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.fat
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+li{
+   text-decoration: none; 
+   font-size: 40px;
+   font-family: consolas;
+   text-decoration: underline;
+   
+}
